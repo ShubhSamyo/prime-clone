@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.header {
+    background-color: #1b252f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    box-shadow: -4px 22px 45px -19px rgba(0, 0, 0, 0.75);
+}
+
+.nave-link {
+    width: 45%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.nave-link a {
+    text-decoration: none;
+    color: rgb(196, 196, 196);
+}
+
+nav img {
+    height: 35px;
+    margin-right: 20px;
+}
+
+.right {
+    width: 11%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(196, 196, 196);
+}
+
+.container {
+    /* height: 100vh; */
+    /* background-color: aqua; */
+    display: flex;
+}
+
+.section1 {
+    width: 75%;
+    background-image: url(./images/MLP._SX1440_CR575\,0\,865\,675_QL80_AC_FP_.jpg);
+    height: 570px;
+}
+
+.section2 {
+    width: 45%;
+    background-color: black;
+    color: white;
+    box-shadow: 83px -12px 97px 39px rgba(0, 0, 0, 0.75);
+    z-index: +1;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.start {
+    width: 280px;
+    padding: 15px;
+    background-color: #0f79af;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+.section2 h1 {
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.section2 h4 {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.section2 p {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.container2 {
+    display: flex;
+}
+
+.section4 {
+    width: 75%;
+    background-image: url(./images/TVOD_MLP_Right._SX1440_CR575\,0\,865\,675_QL80_AC_FP_.jpg);
+    height: 400px;
+}
+
+.section3 {
+    width: 40%;
+    background-color: black;
+    color: white;
+    box-shadow: 83px -95px 97px 39px rgba(0, 0, 0, 0.75);
+    /* box-shadow: 83px -12px 97px 39px rgba(0,0,0,0.75); */
+    z-index: +1;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section3 h1 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.section3 h4 {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.Rent {
+    width: 280px;
+    padding: 15px;
+    background-color: #0f79af;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+.container3 {
+    display: flex;
+    height: 430px;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.section5 {
+    width: 50%;
+    padding-right: 35px;
+}
+
+.section5 h1 {
+    font-size: 48px;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+
+.section5 h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.section6 {
+    width: 50%;
+}
+
+.aaa {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box {
+    height: 130px;
+    width: 190px;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid white;
+    background-image: url(./images/LionsgatePlay-426X2946_V1.jpg);
+}
+
+.box:hover {
+    border: 2px gray;
+    box-shadow: 0px 0px 14px black;
+}
+
+.container4 {
+    height: 450px;
+    display: flex;
+
+}
+
+.section7 {
+    width: 50%;
+    background-image: url(./images/MLP_Template_Image_Left._SX1440_CR0\,0\,865\,675_QL80_AC_FP_.jpg);
+    background-size: cover;
+}
+
+.section8 {
+    width: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 80px;
+}
+
+.section8 h1 {
+    font-size: 45px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.section8 h4 {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.get {
+    width: 280px;
+    padding: 15px;
+    background-color: #0f79af;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+.container5 {
+    height: 450px;
+    display: flex;
+}
+
+.section9 {
+    background-color: black;
+    color: white;
+    width: 50%;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section9 h1 {
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.section9 h4 {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.section10 {
+    width: 50%;
+    background-image: url(./images/IN-kids-30Jan._SX1440_CR575\,0\,865\,675_QL80_AC_FP_.jpg);
+    background-size: cover;
+}
+
+footer {
+    height: 130px;
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer img {
+    height: 70px;
+}
+
+span {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+span a {
+    text-decoration: none;
+    color: #0f79af;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+span a:hover {
+    color: #007185;
+}
+
+footer p {
+    color: #949494;
+    margin-top: 15px;
+    font-weight: 200;
+}
+
+@media (max-width:768px) {
+    .nave-link {
+        width: 70%;
+    }
+
+    .right {
+        width: 18%;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .section1 {
+        width: 100%;
+    }
+
+    .section2 {
+        height: auto;
+        width: 100%;
+    }
+
+    .section2 p {
+        font-size: 13px;
+        font-weight: 300;
+        margin-bottom: 10px;
+    }
+
+    .container2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .section4 {
+        width: 100%;
+    }
+
+    .section3 {
+        height: auto;
+        width: 100%;
+    }
+
+    .container3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section5 {
+        height: auto;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .container3 {
+        height: auto;
+    }
+
+    .section6 {
+        width: 100%;
+        height: auto;
+    }
+
+    .aaa {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container4 {
+        display: flex;
+    }
+
+    .section7 {
+        height: auto;
+        width: 50%;
+        background-size: cover;
+    }
+
+    .section8{
+        width: 50%;
+        padding: 20px;
+    }
+}
+
